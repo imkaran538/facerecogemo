@@ -1,0 +1,5 @@
+pip install deepface
+from deepface import DeepFace
+face_analysis = DeepFace.analyze(img_path = "C:\Users\tap2c\OneDrive\Desktop\sample.jpg")
+print(face_analysis["emotion"])
+print(face_analysis["dominant_emotion"])
